@@ -1,0 +1,61 @@
+%%Excelsior JET v10.0 project file
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-jetcpenablemanualsettings+
+-multiapp-
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-inlinelimit=100
+-inlinetolimit=1000
+-jetcplastpage:=PageClasspath
+-jetrt=Desktop
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-main=irrigationmanagementsystem/IrrigationManagementSystem
+-outputdir=.
+-outputname=IrrigationManagement
+-saprofmode=NONE
+-stacklimit=900000
+-versioninfofiledescription=IrrigationManagement
+-versioninfoproductname=IrrigationManagement
+-versioninfoproductversion=1.1.0.0
+
+
+
+
+!classpathentry ./dist/IrrigationManagement.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
+!classpathentry ./dist/lib/AbsoluteLayout.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry ./dist/lib/DateChooser.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry ./dist/lib/beansbinding-1.2.1.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry C:/Program Files/Java/jre1.8.0_20/lib/ext/sqlite-jdbc-3.7.2.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+
+
